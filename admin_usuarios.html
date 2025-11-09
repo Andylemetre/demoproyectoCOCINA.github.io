@@ -39,10 +39,7 @@
                         class="bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold transition">
                         <i class="fas fa-home mr-2"></i>Volver
                     </a>
-                    <button onclick="logout()"
-                        class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-semibold transition">
-                        <i class="fas fa-sign-out-alt mr-2"></i>cerrar sesión
-                    </button>
+
                 </div>
             </div>
         </div>
@@ -393,11 +390,7 @@
             }, 3000);
         }
 
-        function logout() {
-            if (confirm('¿Estás seguro de que deseas cerrar sesión?')) {
-                window.location.href = 'login.html';
-            }
-        }
+
 
         // Cerrar modal al hacer clic fuera
         document.getElementById('modalConfirmacion').addEventListener('click', function (e) {
